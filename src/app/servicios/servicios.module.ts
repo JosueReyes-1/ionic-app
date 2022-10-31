@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPageRoutingModule } from './alert-routing.module';
+import { ServiciosPageRoutingModule } from './servicios-routing.module';
 
-import { AlertPage } from './alert.page';
+import { ServiciosPage } from './servicios.page';
 import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from '../components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    AlertPageRoutingModule,
-    ComponentsModule
+    ServiciosPageRoutingModule,
+    ComponentsModule,
   ],
-  declarations: [AlertPage]
+  declarations: [ServiciosPage]
 })
-export class AlertPageModule {}
+export class ServiciosPageModule {}

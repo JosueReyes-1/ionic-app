@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
+import { Inicio2PageRoutingModule } from './inicio2-routing.module';
 
-import { ActionSheetPage } from './action-sheet.page';
+import { Inicio2Page } from './inicio2.page';
 import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from '../components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    ActionSheetPageRoutingModule,
-    ComponentsModule
+    Inicio2PageRoutingModule,
+    ComponentsModule,
   ],
-  declarations: [ActionSheetPage]
+  declarations: [Inicio2Page]
 })
-export class ActionSheetPageModule {}
+export class Inicio2PageModule {}

@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { InfiniteScrollPage } from './infinite-scroll.page';
+import { ServiciosPage } from './servicios.page';
 
-describe('InfiniteScrollPage', () => {
-  let component: InfiniteScrollPage;
-  let fixture: ComponentFixture<InfiniteScrollPage>;
+describe('ServiciosPage', () => {
+  let component: ServiciosPage;
+  let fixture: ComponentFixture<ServiciosPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ InfiniteScrollPage ],
+      declarations: [ ServiciosPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(InfiniteScrollPage);
+    fixture = TestBed.createComponent(ServiciosPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
